@@ -57,3 +57,17 @@
 #app-container .forgot-password {
   text-align: right; /* Alinha o texto à direita */
 }
+
+.senha-container {
+  position: relative;
+}
+
+.toggle-senha {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
