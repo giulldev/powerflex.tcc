@@ -29,7 +29,7 @@
   .form-group button {
     width: 100%; /* Largura total do botão */
     padding: 10px; /* Espaçamento interno do botão */
-    background-color: #007bff; /* Cor de fundo azul */
+    background-color: #ccc; /* Cor de fundo azul */
     color: #fff; /* Cor do texto branco */
     border: none; /* Sem borda */
     border-radius: 4px; /* Borda arredondada */
@@ -38,7 +38,7 @@
 
   .form-group button:hover {
     
-    color: brown;
+    color: black;
 
   }
   
@@ -70,4 +70,8 @@
   background: none;
   border: none;
   cursor: pointer;
+}
+
+.botao {
+  background-color: black;
 }

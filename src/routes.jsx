@@ -13,7 +13,6 @@ function RoutesApp(){
             <Routes>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/usuario" element={<Usuario/>}/>
-                <Route path="/listausuario" element={<ListaUsuario/>}/>
                 <Route path="/funcionario" element={<Funcionario/>}/>
                 
             </Routes>

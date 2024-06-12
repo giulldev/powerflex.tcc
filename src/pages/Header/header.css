@@ -16,9 +16,9 @@ header{
 .usuario{
     text-decoration: none;
     cursor: pointer;
-    background-color: rgb(216, 22, 22);
+    background-color: rgb(162, 0, 255);
     padding: 5px 14px;
-    color:black;
+    color:white;
     border-radius: 4px;
 }
 .funcionario{
@@ -29,3 +29,8 @@ header{
     color:black;
     border-radius: 4px;
 }
+
+.container{ position: relative;
+    width: 60px;
+    margin: 20px auto;
+   }
