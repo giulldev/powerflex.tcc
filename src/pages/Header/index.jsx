@@ -1,30 +1,19 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './header.css'; // Certifique-se de importar o arquivo CSS da PowerFlex
+import './header.css';
+import { Link } from 'react-router-dom'
 
-function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
+function Header(){
+    
+    return(
+            <header>
+                <img src="../images/logo.jpeg" alt="" id='logoimg' />
+                <a href="/" className="logo">PowerFlex Academy</a>
+                <a href="/usuario" className="usuario">Cadastrar Usuário</a>
+                <a href="/listausuario" className="usuario">ListaUsuário</a>
+                <a href="/funcionario" className="funcionario">Funcionário</a>
+            </header>
 
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    )
 
-    return (
-        <header className={menuOpen ? 'header open' : 'header'}>
-            <Link to="/" className="logo">PowerFlex Academy</Link>
-            <div className="menu-toggle" onClick={toggleMenu}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <nav className="nav">
-                <Link to="/usuario" className="link">Cadastrar Usuário</Link>
-                <Link to="/funcionario" className="link">Funcionário</Link>
-                <div className="empty"></div>
-            </nav>
-        </header>
-    );
 }
 
 export default Header;
-

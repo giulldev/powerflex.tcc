@@ -1,9 +1,9 @@
 // npm install react-hook-form
 import  {useForm} from "react-hook-form";
 import { Link } from 'react-router-dom';
-import './funcionario.css';
+import './login.css';
 
-const Funcionario = () => {
+const Login = () => {
     const {register, handleSubmit} = useForm();
 
     const onSubmit = (data) => {
@@ -24,7 +24,7 @@ const Funcionario = () => {
 
         <div className="form-group">
             
-            <button onClick={() =>handleSubmit(onSubmit)()}>Cadastrar Funcionario</button>
+            <button onClick={() =>handleSubmit(onSubmit)()}>Login</button>
       </div>
 
     </div>
@@ -32,24 +32,4 @@ const Funcionario = () => {
 
 }
 
-export default Funcionario;
-/*
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './funcionario.css'
-
-function Funcionario(){
-
-    return(
-           
-        <div>
-            <center><h1>Funcionario Jack</h1></center>
-        </div>
-
-    )
-
-}
-
-export default Funcionario;
-
-*/
+export default Login;

@@ -1,83 +1,13 @@
-.header {
+.meio{
   background-color: black;
   color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  position: relative;
 }
 
-.logo {
-  color: white;
-  text-decoration: none;
-  font-size: 20px;
+body{
+  --color: purple;
+  background-color: rgb(182, 178, 181);
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
 }
 
-.menu-toggle {
-  display: none;
-  cursor: pointer;
-}
-
-.menu-toggle span {
-  display: block;
-  width: 25px;
-  height: 3px;
-  background-color: white;
-  margin-bottom: 5px;
-}
-
-.nav {
-  display: flex;
-}
-
-.link {
-  color: white;
-  text-decoration: none;
-  margin-left: 20px;
-}
-
-.link:hover {
-  color: #b771ff;
-}
-
-/* Media query para tornar o menu responsivo */
-@media screen and (max-width: 768px) {
-  .nav {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    top: calc(100% + 10px);
-    left: 50%;
-    width: 50%;
-    height: auto; /* Alterado para altura automática */
-    overflow-y: auto; /* Adicionado para adicionar rolagem quando o conteúdo é muito grande */
-    background-color: black;
-    z-index: 1;
-  }
-
-  .link {
-    margin: 10px 0;
-    color: blueviolet;
-  }
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .header.open .nav {
-    display: flex;
-  }
-}
-
-.navbar-dark .nav-item .nav-link {
-  color: #fff;
-}
-
-.navbar-dark .nav-item .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  transition: all 0.3s ease;
-  border-radius: 0.25rem;
-  color: #fff;
-}

@@ -1,49 +1,82 @@
 #imgtopo{
+    margin-left: -1.2%;
+    height: 60%;
     width: 50%;
-    margin-top: 10px;
-    border-radius: 10px;
-    border-style: outset;
-    border-color: gray;
+    margin-top: 2%;
+    --margin-left: -1.2%;
+    --height: 500px;
+    --margin-top: 15px;
+    --border-radius: 10px;
+    --border-style: outset;
+    --border-color: white;
 }
 
 /*Ou colocar a imagem de fundo na metade da tela*/
 #titulo{
     --cursor: pointer;
-    background-color: #000000;
-    padding: 15.5% 14px 10.5% ;
-    margin-left: 52%;
-    margin-right: 1.5%;
-    margin-top: -33.5%;
+    background-color: rgb(114, 73, 138);
+    --border: fixed;
+    --margin: fixed;
+    display: block;
+  --border-block: 50px dashed red;
+    --padding: 5% 10px 10% ;
+    padding: 5% 1% 10% ;
+
+    margin-left: 60%;
+    margin-right: -1.2%;
+    margin-top: -30.2%;
+    margin-bottom: 10%;
+    --margin-bottom: 100px;
+    height: 50%;
+    --heght:500px
     text-decoration: none;
-    color: #c72525;
-    border-radius: 10px;
-    border-style: outset;
+    color: plum;
+    --border-radius: 10px;
+    --border-top: solid;
+    --border-right: solid;
+    --border-style: outset;
+    border-color: white;
     --border-spacing: 50px;
-    font-size: 28px;
-    font-display: block;
+    font-size: 60px;
+    --font-display: block;
     text-align: center;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
     --box-sizing: border-box;
-    
     
     
 }
 
 #subtitulo{
     box-sizing: border-box;
-    background-color: aqua;
+    background-color:  rgb(114, 73, 138);
     text-align: center;
     margin-top: 5%;
-    color: #070606;
-    border-radius: 10px;
-    border-style: ridge;
+     width: 102.4%;
+    margin-left: -1.2%;
+    color: plum;
+    --border-radius: 13px;
+    --border-style: ridge;
+    --border-color: white;
+    --border-width: 5px;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
    --text-decoration:none;
    --overflow:visible;
+   font-size: 36px;
 
 
 }
 
 .texto1{
-    font-size: small;
+    font-size: 23px;
+    
 }
 /*
 
@@ -53,10 +86,12 @@
     
 }
 */
+/*
 .cardedireita1{
     margin-left: 77%;
     margin-top: -670px;
     width: 22%;
+     }}
   
 }
 
@@ -72,22 +107,57 @@
     margin-top: -207px;
 
 }
+*/
+#blocomeio{
+    background-color: white;
+    padding: 0.8%;
+    --border-style:solid;
+    --border-radius: 20px;
+    --border-color: azure;
+    --border-width: 14px;
+    width: 102.4%;
+    margin-left: -1.2%;
+    margin-top: 1%;
+    
+    
+    
+}
+
+.cardes{
+    width: 30%;
+    margin-top: 3%;
+    margin-bottom: -1%;
+    margin-left: 2%;
+    --text-align:center;
+    
+
+}
 
 #imgmeio{
     width: 50%;
-    margin-top: 10px;
-    margin-left: 25%;
-    border-radius: 10px;
-    border-style: outset;
-    border-color: gray;
+    margin-top: -65%;
+    --margin-top: -610px;
+    margin-left: 48%;
+    margin-bottom: 2%;
+    --margin-bottom: 200px;
+    --border-radius: 10px;
+    --border-style: solid;
+    --border-width: 5px;
+    --border-color: rgb(109, 38, 109);
     
    --image-rendering: optimizeSpeed;
     
 
 }
 
+#cardegrup{
+    width: 102.4%;
+    margin-left: -1.2%;
+    margin-top: 5%;
+}
+
 .cardecorpo{
-    background-color: grey;
+    background-color: rgb(114, 73, 138);
 }
 .cardetitulo{
     color: plum;
@@ -95,23 +165,121 @@
 
 .cardetexto{
     color: plum;
+    text-shadow: 
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black,
+    -1px -1px 0 black;
 }
 
-#link:hover{
+/*
+a:link{
+    color: purple;
+    text-decoration:sublime;
+}
+ */
+.link:link{
+    color: purple;
+    text-decoration: none;
+    
+}
+.link:visited{
     --visibility: visible;
-    color: rgb(154, 204, 18);
+    color: plum;
+    text-decoration: none;
+    
+}
+.link:hover{
+    color: blueviolet;
+    text-decoration:none;
 }
 
 .imgcardegrupo{
     --cursor: pointer;
-    border-radius: 10px;
-    border-style: outset;
-    border-color: gray;
+    --border-radius: 10px;
+    --border-style: solid;
+    --border-color: white;
     height: 65%;
+    
 }
 
+/*
 footer{
     box-sizing: border-box;
+    margin-top: 5%;
     color: #c72525;
     background-color: beige;
+    border-style:groove;
+    border-color: black;
+    border-width: 5px;
+    
 }
+
+#logofooter{
+    width: 10%;
+    height: 20%;
+    margin-left: 3%;
+    margin-top: 3%;
+    border-style: double;
+    border-color: black;
+}
+
+#textofooter{
+    margin-left: 20%;
+    margin-bottom: 1%;
+}*/
+
+footer {
+    background-color: black;
+    margin-top: 5%;
+    width: 102.4%;
+    margin-left: -1.2%;
+    margin-bottom: -1.5%;
+    --border-style: solid;
+    --border-color: rgb(114, 73, 138);
+    padding: 2% 0;
+   --padding: 20px 0;
+    text-align: center;
+    --clear:both;
+  }
+  
+  .container {
+    max-width: 50%;
+    --max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footerlogo img {
+    max-width: 10%;
+    --max-width: 100px;
+    --border-style: double;
+    --border-color: blueviolet;
+  }
+  
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    --margin-top: 20px;
+  }
+  
+  .column {
+    flex: 1;
+    margin: 0 10px;
+    --margin: 0 1%;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    margin-bottom: 10%;
+    --margin-bottom: 10px;
+    color: blueviolet;
+  }
+  
+  .column p {
+    font-size: 14px;
+    color: plum;
+  }
