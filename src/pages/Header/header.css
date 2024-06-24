@@ -1,0 +1,44 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 102.4%;
+    margin-left: -1.2%;
+    margin-top: -1.5%;
+    height: 90px;
+    background-color: black;
+    
+}
+
+#logoimg{
+    height: 75px; 
+    width: 5%;
+    
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight:bold;
+    color: blueviolet;
+}
+
+.usuario{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 14px;
+    color:black;
+    border-radius: 4px;
+
+}
+
+.login{
+    text-decoration: none;
+    cursor: pointer;
+    background-color: white;
+    padding: 5px 20px;
+    color:black;
+    border-radius: 4px;
+}

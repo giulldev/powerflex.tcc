@@ -1,0 +1,11 @@
+.meio{
+  background-color: black;
+  color: white;
+}
+
+body{
+  --color: purple;
+  background-color: rgb(182, 178, 178);
+  font-family: 'Times New Roman', Times, serif;
+}
+
